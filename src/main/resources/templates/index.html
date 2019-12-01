@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.tymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<title>Index</title>
+<style>
+h1 { font-size:18px; font-weight: bold; color: gray;}
+body { font-size: 13pt; color: gray; margin: 5px 25px; }
+</style>
+</head>
+
+<body>
+	<h1>Hello Page</h1>
+	<p class="msg" th:text="${msg}">Please Wait...</p>
+	<hr>
+	<h1 th:text="#{content.title}">Hello</h1>
+	<pre th:text="${data}"></pre>
+</body>
+</html>
